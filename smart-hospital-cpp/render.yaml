@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: smart-hospital-cpp
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
